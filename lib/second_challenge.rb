@@ -5,9 +5,13 @@ def second_challenge
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
   }
+  out_array = []
+  groceries.values.each do |arrays|
+    arrays.each do |element|
+      out_array << element
+    end
+  end
+out_array
 
-  #code your solution here!
-
-  
 
 end
