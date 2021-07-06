@@ -4,10 +4,7 @@ def second_challenge
    vegetable: ["carrots", "broccoli", "cucumbers"],
    meat: ["chicken", "steak", "salmon"],
    grains: ["rice", "pasta"]
-  }
-
-  #code your solution here!
-
+  }   
   
-
+   groceries.values.flatten
 end
