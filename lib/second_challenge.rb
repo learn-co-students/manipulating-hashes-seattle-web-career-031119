@@ -7,7 +7,15 @@ def second_challenge
   }
 
   #code your solution here!
+  value_array = []
 
-  
+
+
+   groceries.each do |key, value|
+    groceries[key].each do |food|
+      value_array.push(food)
+    end
+  end
+return value_array
 
 end
